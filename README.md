@@ -22,6 +22,8 @@ npx skills add ohmuyi/muyi-skills
 
 这个 Skill 只生成提示词，不直接调用图像生成工具，不处理参考图编辑，也不生成视频提示词。它支持一位或两位成年中国女性，未指定人数时默认一位；“合照”与“闺蜜照”等语义按两位处理，零人、三人以上、多人或群像暂不支持。涉及衣着、姿态和镜头语言时保持成年、非露骨和非窥视表达。
 
+`muyi-portrait-tang` 采用单文件结构。除通过安装工具使用外，也可以将其 [`SKILL.md`](skills/muyi-portrait-tang/SKILL.md) 全文作为 system 或 developer instruction 提供给支持长上下文的其他对话模型。
+
 ## 开发与贡献
 
 新增或修改 Skill 前，请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。仓库会在 pull request 和 `main` 分支更新时自动检查目录命名、frontmatter、文件引用和通用 Agent Skills 规范。
